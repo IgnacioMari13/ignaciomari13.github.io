@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navegacion">
+         <a href="#Sobre-mi" class="navegacion_enlace">SobreMi</a>
+         <a href="#Recomendaciones" class="navegacion_enlace">Recomendaciones</a>
+         <a href="#Contacto" class="navegacion_enlace">Contacto</a>   
+        </nav>
+    </header>
+    <section class="principal">
+        <div class="contenedor-pri">
+            <picture>
+                <source srcset="foto-pri.png" type="Image/webp">
+                <img class="perfil" src="foto-pri.png" alt="Ignacio Mari">
+            </picture>
+            <h1>Ignacio Mari</h2>
+            <h3>Cineasta</h3>
+        </div>
+    </section>
+    <hr>
+    <section id="Sobre-mi">
+        <div class="contenedor">
+            <div class="texto">
+                <h2 class="presentacion">Buenas, soy Ignacio</h2>
+                <div>
+                    <p class="parrafos">Siempre me encanto el cine, pero en 2017 fue cuando empezó
+                        a interesarme de verdad el detrás de escena. Este año comencé 
+                        a estudiar Audiovisuales en una Utu, y aquí fue donde aprendí 
+                        mucho de lo que se actualmente.
+                    </p>
+                    <p class="parrafos">
+                        Participe de varias realizaciones de cortos dentro del marco 
+                        de la carrera, estas experiencias me dieron varias herramientas
+                         para comprender lo que se siente ser parte de una producción audiovisual. 
+                    </p>
+                    <p class="parrafos">
+                        Tengo un gran interés por el <strong>Drama, Clásicos, Surrealismo, 
+                        Thriller Psicológicos, Terror, Romance y Experimentales.</strong> Estos son los 
+                        géneros que mas me interesan, pero igualmente me gusta aprender de todos los géneros.   
+                    </p>
+                    <p class="parrafos">
+                        El objetivo de este portafolio es hacer recomendaciones cinematográficas. las películas 
+                        que les nombrare, a mi parecer, son muy completas a nivel de relato e imagen. Estos dos 
+                        factores son los que más me interesan en el mundo audiovisual.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Termina Sobre-mi -->
+<section id="Recomendaciones">
+    <div class="contenedor">
+        <div class="Peliculas">
+            <h2>Recomendaciones</h2>
+            <div class="imagen">
+                <h4>Mommy</h4>               
+                <img src="Mommy.webp" alt="film-Mommy"> 
+                <p class="parrafos">En una Canadá ficticia, se aprueba una ley que permite que los padres incapaces de controlar 
+                    a sus hijos problemáticos les internen en un centro especial. Sin embargo, Diane "Die" Despres, una madre viuda 
+                    con carácter, decide educar ella misma a su hijo adolescente Steve, que padece ADHD y que puede llegar a resultar 
+                    violento. Kyla, la vecina de enfrente de su casa, le ofrece su ayuda a Die. La relación entre los tres se hará cada 
+                    vez más estrecha, surgiendo preguntas sobre el misterio de su vida.
+                </p>
+            </div>
+            <div class="imagen">
+                <h4>Submarine</h4>  
+                <img src="Submarine.jpg" alt="film-Submarine">
+                <p class="parrafos">Oliver Tate (Craig Roberts) es un peculiar chico de 15 años que tiene dos objetivos: impedir que su madre abandone a 
+                    su padre y encontrarse a sí mismo aunque sea a través de una chica.
+                </p>
+            </div>
+            <div class="imagen">
+                <h4>Coherence</h4>  
+                <img src="coherence.jpg" alt="film-Coherence">
+                <p class="parrafos">En Finlandia, en 1923, el paso de un cometa hizo que los habitantes de un pueblo quedaran completamente desorientados; 
+                    incluso una mujer llegó a llamar a la policía denunciando que el hombre que estaba en su casa no era su marido. Décadas 
+                    más tarde, un grupo de amigos recuerda este caso mientras cenan, brindan y se preparan para ver pasar un cometa
+                </p>
+            </div>
+            <div class="imagen">
+                <h4>Candy</h4>  
+                <img src="candy.jpg" alt="film-Candy">
+                <p class="parrafos">Historia de una apasionada, duradera y autodestructiva relación amorosa. Candy es una joven y bella artista cuya ansia de 
+                    vida la lleva al extremo de la cordura. Dan, es un poeta perdido enamorado de Candy. Ellos encuentran en la heroína un camino 
+                    de placer ilimitado. Pero cuando la adicción domina ellos pierden lo que habían encontrado. Candy abre la puerta a una visión 
+                    de ensueño que tendrá significado para aquellos que se han sentido deslumbrados por la belleza del mundo.
+                </p>
+            </div>
+        </div>
+        <!-- Terminna Peliculas -->
+    </div>
+    <!-- Termina contenedor -->
+</section>
+<!-- Termina Recomendaciones -->
+<hr>
+<section id="Contacto">
+    <div id="Titulo-contacto">
+        <h2>Contacto</h2>
+    </div>
+    <form id="formulario">
+        <div class="contenedor">
+            <fieldset>
+                <div class="cont-campos">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre Completo" id="nombre" name="name">
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo</label>
+                        <input class="input-text" type="email" placeholder="correo@ejemplo.com" id="correo" name="email">
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto</label>
+                        <input class="input-text" type="text" placeholder="Asunto" id="asunto" name="asunt">
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="input-text" type="text" id="mensaje" name="comentarios"></textarea>
+                    </div>
+                </div>
+                    <!-- Termina cont-campos -->
+                <div class="butt-enviar">
+                    <input type="button" class="boton" value="Enviar">
+                </div>
+            </fieldset>
+        </div>
+        <!-- Termina contenedor -->
+    </form>
+    <!-- Termina formulario -->
+</section>
+<!-- Termina Contacto -->
+<hr>
+<footer id="footer">
+    <div class="info-footer">
+        <p>
+            <span>Ignacio Mari</span>
+            © 2023. Todos Los Derechos Reservados
+        </p>
+    </div>
+</footer>
+<!-- Termina footer -->
+</body>
+</html>
